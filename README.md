@@ -22,9 +22,11 @@ In this step we will create a repository on GitHUB.
 
 - Go to <a href="https://github.com/">GitHub</a>.
 - Sign in to GitHub.
-- On the right side of the page, click on the green `New repository` button.
+- On the right side of the page, click on the + icon `New repository` button.
+- If you see the option to select an owner select your user id
 - Give your repository any name you like and make sure that the repository is public.
-- Also make sure that the `Initialize this repository with a README` is <b>NOT</b> checked.
+- Also make sure that the `Add a README file` is <b>NOT</b> checked.
+- click on crate repository.
 
 ## Step 2
 
@@ -34,11 +36,11 @@ In this step we will setup the origin for the repository. We'll do this by conne
 
 ### Instructions
 
-- Create a folder called `myProject`.
-- Go into that folder.
-- Create a file called `myName.js` and add your name to that file.
-- Save the file and open a terminal window.
-- In your terminal window, `cd` to your `myProject` folder. O
+\_ Open terminal navigate to desktop
+
+- Create a folder called `myProject` (Hint: mkdir).
+- (Hint: cd ) Go into `myProject` folder.
+- Create a file called (Hint: touch) `myName.js` and add your name to that file.
 - Run `git init`.
 
   - <details>
@@ -100,7 +102,7 @@ In this step, we will push code to GitHub.
 
     </details>
 
-- Run `git add nameOfMyFile.fileExtension`.
+- Run `git add . `.
 
   - <details>
 
@@ -225,16 +227,3 @@ Here is where things start to get different. Let's imagine we're working in grou
 - Locate the green button that says `New pull request` and click it.
   - You should now see the file changes you've made and how they differ from the original repo.
 - Click on the `Create pull request` button to submit your PR.
-- Now if you navigate to the <a href="https://github.com//learn-git/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
-
-## Contributions
-
-If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
-
-## Copyright
-
-© LLC, 2017. Unauthorized use and/or duplication of this material without express and written permission from , LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to with appropriate and specific direction to the original content.
-
-<p align="center">
-<img src="https://s3.amazonaws.com//readme-logo.png" width="250">
-</p>
